@@ -30,7 +30,7 @@ if page == "Tahminleme Modeli":
     st.write(""" Acil Serviste Akut Pankreatit Tanısı Alan Hastaların Progresyon  Tahmini""")
 
     SEX = st.selectbox('PATIENTS SEX',('FEMALE', 'MALE'))
-    AGE = st.number_input("AGE",value=int)
+    AGE = st.number_input("AGE",value="int")
     WBC = st.number_input("Lökosit Miktarıx1000",min_value=1,max_value=100)
     NEU = st.number_input("Nötrofil Miktarıx1000",min_value=1,max_value=100)
     LYM = st.number_input("Lenfosit Miktarıx1000",min_value=1,max_value=100)
