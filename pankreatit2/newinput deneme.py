@@ -30,4 +30,5 @@ a = pd.DataFrame(data=[[0 if SEX == "FEMALE" else 1,AGE,WBC,NEU,LYM,HGB,PLT,NEU*
 print(a)
 model = pickle.load(open('/home/rahman/PycharmProjects/pythonProject/pankreatit2/model.pk1', 'rb'))
 output = model.predict(a)
+print(a)
 print("Patient's progress is getting {}".format("worse" if output==1 else "better"))
