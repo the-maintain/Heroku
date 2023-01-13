@@ -237,6 +237,31 @@ a= pd.DataFrame(columns=['SEX', 'AGE', 'WBC', 'NEU', 'LYM', 'HGB', 'PLT', 'NEU*P
 random_user.columns
 log_model.predict(a)
 
+
+
+
+
+
+
+
+######burdan sonrası fatih****************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import pickle
 pickle.dump(log_model,open("model.pk1","wb"))
 log_model = pickle.load(open("model.pk1","rb"))
