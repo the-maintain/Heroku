@@ -9,7 +9,7 @@ st.set_page_config(page_title="Pankreatit'te progresyon tahminleme modeli")
 tabs=["Pankreatit Nedir?","Tahminleme Modeli","Tablolar","Hakkında"]
 page = st.sidebar.radio("Sekmeler",tabs)
 
-model = pickle.load(open('/home/rahman/PycharmProjects/pythonProject/pankreatit2/model.pk1', 'rb'))
+model = pickle.load(open('model.pk1', 'rb'))
 
 b = pd.DataFrame(columns = ['SEX', 'AGE', 'WBC', 'NEU', 'LYM', 'HGB', 'PLT', 'NEU*PLT',
 'SII','GLU', 'UREA', 'CREA', 'AST', 'ALT', 'LDH', 'LIPASE', 'CRP', 'PLR',
