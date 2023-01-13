@@ -33,7 +33,7 @@ if page == "Tahminleme Modeli":
     AGE = st.number_input("AGE",min_value=1)
     WBC = st.number_input("Lökosit Miktarıx1000",min_value=1,max_value=100)
     NEU = st.number_input("Nötrofil Miktarıx1000",min_value=1,max_value=100)
-    LYM = st.number_input("Lenfosit Miktarıx1000",min_value=1,max_value=100)
+    LYM = st.number_input("Lenfosit Miktarıx1000",min_value=1.,max_value=100.)
     HGB = st.number_input("HGB Seviyesi",min_value=1,max_value=25)
     PLT = st.number_input("Trombosit MiktarıX1000",min_value=10,max_value=800)
     GLU = st.number_input("Kan Glukoz Düzeyi",min_value=40,max_value=800)
