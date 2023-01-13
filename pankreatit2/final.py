@@ -38,7 +38,7 @@ if page == "Tahminleme Modeli":
     PLT = st.number_input("Trombosit MiktarıX1000",min_value=10,max_value=800)
     GLU = st.number_input("Kan Glukoz Düzeyi",min_value=40,max_value=800)
     UREA = st.number_input("Üre Miktarı",min_value=2,max_value=100)
-    CREA = st.number_input("Kreatinin Seviyesi",min_value=0.1,max_value=7)
+    CREA = st.number_input("Kreatinin Seviyesi")
     AST = st.number_input("AST",min_value=1,max_value=None)
     ALT = st.number_input("ALT",min_value=1,max_value=None)
     LDH = st.number_input("LDH")
