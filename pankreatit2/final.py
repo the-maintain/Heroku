@@ -32,7 +32,7 @@ if page == "Tahminleme Modeli":
     SEX = st.selectbox('PATIENTS SEX',('FEMALE', 'MALE'))
     AGE = st.number_input("AGE",min_value=1)
     WBC = st.number_input("Lökosit Miktarıx1000",min_value=1,max_value=100)
-    NEU = st.number_input("Nötrofil Miktarıx1000",min_value=1,max_value=100,value="float")
+    NEU = st.number_input("Nötrofil Miktarıx1000",min_value=1,max_value=100,value=float)
     LYM = st.number_input("Lenfosit Miktarıx1000",min_value=1,max_value=100)
     HGB = st.number_input("HGB Seviyesi",min_value=1,max_value=25)
     PLT = st.number_input("Trombosit MiktarıX1000",min_value=10,max_value=800)
