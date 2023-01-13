@@ -2,12 +2,19 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-
+import requests
 
 
 st.set_page_config(page_title="Pankreatit'te progresyon tahminleme modeli")
 tabs=["Pankreatit Nedir?","Tahminleme Modeli","Tablolar","Hakkında"]
 page = st.sidebar.radio("Sekmeler",tabs)
+
+# Get the file
+r = requests.get('https://github.com/the-maintain/Heroku/raw/main/pankreatit2/model.pk1')
+
+# Save the file
+with open('model.pk1', 'wb') as f:
+    f.write(r.content)
 
 model = pickle.load(open('model.pk1', 'rb'))
 
