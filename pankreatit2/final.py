@@ -6,7 +6,7 @@ import requests
 
 
 st.set_page_config(page_title="Pankreatit'te progresyon tahminleme modeli")
-tabs=["Pankreatit Nedir?","Tahminleme Modeli","Tablolar","Hakkında"]
+tabs=["Pankreatit Nedir?","Tahminleme Modeli","Hakkında"]
 page = st.sidebar.radio("Sekmeler",tabs)
 
 # Get the file
@@ -72,4 +72,14 @@ if page == "Pankreatit Nedir?":
 
 
 
+if page == "Hakkında":
+    st.markdown("<h1 style='text-align:center;'>2022 yılından itibaren faaliyet göstermeye başlıyan MiuulHEALTH  değişen teknolojik şartlar altında 
+insan sağlığını daha değerli kılma misyonunu kendine yol bilmiştir. Günümüz teknolojilerini yakından
+ takip ederek, sektöründeki lider sağlık kuruluşlarına  danışmanlık, tasarım, yazılım ve dijital 
+pazarlama hizmetleri sunmaktadır. Amacımız Makine öğrenmesi ve Derin  öğrenmesi algoritmaları 
+araclılığı ile insan sağlığında öncü haber alma vizyonumuzu güçlendirmek, gündelik hayatımızın 
+kaçınılmazı olan sağlık sorunlarına durum hayati tehlikeye varmadan müdahale etmektir.</h1>",unsafe_allow_html=True)
+
+
+ 
 
