@@ -80,5 +80,5 @@ if page == "Pankreatit Nedir?":
     st.image(my_logo)
     st.markdown("<h1 style='text-align:center;'>Akut Pankreatit'te Tahminleme Modeli</h1>",unsafe_allow_html=True)
     st.markdown(("""Akut Pankreatit pankreas enzimlerinin pankreas içinde aktivasyonudur.Acil Mühahele edilmesi 
-    gereken ve hayatı tehdit eden bir durumdur. Bu yüzden hastalığın kötü ya da iyi seyredeceğini bilinmesi,
-    ve buna göre hızlı bir aksiyon alınması gerekir"""
+                gereken ve hayatı tehdit eden bir durumdur. Bu yüzden hastalığın kötü ya da iyi seyredeceğini bilinmesi,
+                ve buna göre hızlı bir aksiyon alınması gerekir"""
