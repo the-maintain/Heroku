@@ -79,8 +79,10 @@ if page == "Tahminleme Modeli":
 if page == "Pankreatit Nedir?":
     my_logo = add_logo(logo_path="pankreatit2/Miuul.jpeg", width=30, height=40)
     st.image(my_logo)
-    st.markdown("<h1 style='text-align:center;'>PANKREAS ENZİMLERİNİN PANKREAS İÇİNDE AKTİVASYONUDUR</h1>",unsafe_allow_html=True)
-
+    st.markdown("<h1 style='text-align:center;'>Akut Pankreatit'te Tahminleme Modeli</h1>",unsafe_allow_html=True)
+    st.markdown(("""Akut Pankreatit pankreas enzimlerinin pankreas içinde aktivasyonudur.Acil Mühahele edilmesi 
+    gereken ve hayatı tehdit eden bir durumdur. Bu yüzden hastalığın kötü ya da iyi seyredeceğini bilinmesi,
+    ve buna göre hızlı bir aksiyon alınması gerekir"""
 
 
 if page == "Hakkında":
