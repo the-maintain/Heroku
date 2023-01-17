@@ -82,7 +82,3 @@ if page == "Pankreatit Nedir?":
     st.markdown(("""Akut Pankreatit pankreas enzimlerinin pankreas içinde aktivasyonudur.Acil Mühahele edilmesi 
     gereken ve hayatı tehdit eden bir durumdur. Bu yüzden hastalığın kötü ya da iyi seyredeceğini bilinmesi,
     ve buna göre hızlı bir aksiyon alınması gerekir"""
-
-
- 
-
