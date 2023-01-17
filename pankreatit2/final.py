@@ -33,6 +33,8 @@ data = [[1.0,24.0,9.8,7.42,1.31, 12.8, 279.0, 2070.18,1580.0,64.0,25.3, 0.62,
 b.head()
 model.predict(b)
 if page == "Tahminleme Modeli":
+    my_logo = add_logo(logo_path="pankreatit2/Miuul.png", width=30, height=40)
+    st.image(my_logo)
     st.markdown("<h1 style='text-align:center;'>Pankreatit</h1>",unsafe_allow_html=True)
     st.write(""" Acil Serviste Akut Pankreatit Tanısı Alan Hastaların Progresyon  Tahmini""")
 
