@@ -75,7 +75,7 @@ if page == "Tahminleme Modeli":
 
 
 if page == "Pankreatit Nedir?":
-    my_logo = add_logo(logo_path="pankreatit2/Miuul.png", width=50, height=60)
+    my_logo = add_logo(logo_path="pankreatit2/Miuul.png", width=30, height=40)
     st.image(my_logo)
     st.markdown("<h1 style='text-align:center;'>PANKREAS ENZİMLERİNİN PANKREAS İÇİNDE AKTİVASYONUDUR</h1>",unsafe_allow_html=True)
 
