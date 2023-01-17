@@ -79,14 +79,14 @@ if page == "Pankreatit Nedir?":
     my_logo = add_logo(logo_path="pankreatit2/Miuul.jpeg", width=30, height=40)
     st.image(my_logo)
     st.markdown("<h1 style='text-align:center;'>Akut Pankreatit'te Tahminleme Modeli</h1>",unsafe_allow_html=True)
-    st.markdown(("""Akut Pankreatit pankreas enzimlerinin pankreas içinde aktivasyonudur.Acil Mühahele edilmesi 
+    st.markdown("""Akut Pankreatit pankreas enzimlerinin pankreas içinde aktivasyonudur.Acil Mühahele edilmesi 
                 gereken ve hayatı tehdit eden bir durumdur. Bu yüzden hastalığın kötü ya da iyi seyredeceğini bilinmesi,
-                ve buna göre hızlı bir aksiyon alınması gerekir""")
+                ve buna göre hızlı bir aksiyon alınması gerekir.""")
 
 if page == "Hakkında":
     my_logo = add_logo(logo_path="pankreatit2/Miuul.jpeg", width=30, height=40)
     st.image(my_logo)
-    st.markdown(("""A2022 yılından itibaren faaliyet göstermeye başlıyan MiuulHEALTH  değişen teknolojik şartlar altında 
+    st.markdown("""A2022 yılından itibaren faaliyet göstermeye başlıyan MiuulHEALTH  değişen teknolojik şartlar altında 
     insan sağlığını daha değerli kılma misyonunu kendine yol bilmiştir. Günümüz teknolojilerini yakından takip ederek,
     sektöründeki lider sağlık kuruluşlarına  danışmanlık, tasarım, yazılım ve dijital pazarlama hizmetleri sunmaktadır. 
     Amacımız Makine öğrenmesi ve Derin  öğrenmesi algoritmaları araclılığı ile insan sağlığında öncü haber alma vizyonumuzu 
