@@ -3,7 +3,16 @@ import pickle
 import numpy as np
 import pandas as pd
 import requests
+from PIL import Image
 
+def add_logo(logo_path, width, height):
+    """Read and return a resized logo"""
+    logo = Image.open(logo_path)
+    modified_logo = logo.resize((width, height))
+    return modified_logo
+
+my_logo = add_logo(logo_path="your/logo/path", width=50, height=60)
+st.sidebar.image(my_logo)
 
 st.set_page_config(page_title="Pankreatit'te progresyon tahminleme modeli")
 tabs=["Pankreatit Nedir?","Tahminleme Modeli","Hakkında"]
