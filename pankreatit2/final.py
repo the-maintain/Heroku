@@ -75,7 +75,6 @@ if page == "Tahminleme Modeli":
 
 
 
-
 if page == "Pankreatit Nedir?":
     my_logo = add_logo(logo_path="pankreatit2/Miuul.jpeg", width=30, height=40)
     st.image(my_logo)
@@ -83,7 +82,6 @@ if page == "Pankreatit Nedir?":
     st.markdown(("""Akut Pankreatit pankreas enzimlerinin pankreas içinde aktivasyonudur.Acil Mühahele edilmesi 
     gereken ve hayatı tehdit eden bir durumdur. Bu yüzden hastalığın kötü ya da iyi seyredeceğini bilinmesi,
     ve buna göre hızlı bir aksiyon alınması gerekir"""
-
 
 if page == "Hakkında":
     st.markdown("""      2022 yılından itibaren faaliyet göstermeye başlıyan MiuulHEALTH  değişen teknolojik şartlar altında 
