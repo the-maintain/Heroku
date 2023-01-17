@@ -11,7 +11,7 @@ def add_logo(logo_path, width, height):
     modified_logo = logo.resize((width, height))
     return modified_logo
 
-my_logo = add_logo(logo_path="your/logo/path", width=50, height=60)
+my_logo = add_logo(logo_path="pankreatit2/Miuul.png", width=50, height=60)
 st.sidebar.image(my_logo)
 
 st.set_page_config(page_title="Pankreatit'te progresyon tahminleme modeli")
