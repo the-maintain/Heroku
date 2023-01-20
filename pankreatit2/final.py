@@ -89,5 +89,5 @@ if page == "Hakkında":
     st.markdown("""2022 yılından itibaren faaliyet göstermeye başlıyan MiuulHEALTH  değişen teknolojik şartlar altında 
     insan sağlığını daha değerli kılma misyonunu kendine yol bilmiştir. Günümüz teknolojilerini yakından takip ederek,
     sektöründeki lider sağlık kuruluşlarına  danışmanlık, tasarım, yazılım ve dijital pazarlama hizmetleri sunmaktadır. 
-    Amacımız Makine öğrenmesi ve Derin  öğrenmesi algoritmaları araclılığı ile insan sağlığında öncü haber alma vizyonumuzu 
+    Amacımız Makine öğrenmesi ve Derin  öğrenme algoritmaları araclılığı ile insan sağlığında öncü haber alma vizyonumuzu 
     güçlendirmek, gündelik hayatımızın kaçınılmazı olan sağlık sorunlarına durum hayati tehlikeye varmadan müdahale etmektir.""")
