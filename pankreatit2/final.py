@@ -75,7 +75,7 @@ if page == "Tahminleme Modeli":
 
 
 
-if page == "What's Pancreatitis?":
+if page == "Pankreatit Nedir?":
     my_logo = add_logo(logo_path="pankreatit2/Miuul.jpeg", width=30, height=40)
     st.image(my_logo)
     st.markdown("<h1 style='text-align:center;'>Akut Pankreatit'te Tahminleme Modeli</h1>",unsafe_allow_html=True)
